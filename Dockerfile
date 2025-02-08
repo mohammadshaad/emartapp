@@ -14,5 +14,5 @@ COPY --from=server-build /usr/src/app/nodeapi/ ./
 COPY --from=ui-build /usr/src/app/client/dist ./client/dist
 RUN ls
 EXPOSE 4200
-EXPOSE 5000
+EXPOSE 8000
 CMD ["/bin/sh", "-c", "cd /usr/src/app/ && npm start"]

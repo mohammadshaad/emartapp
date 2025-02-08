@@ -34,7 +34,7 @@ app.use("/api/shop", shopRoutes);
 mongoose
   .connect(mongooseURI)
   .then(() => {
-    const port = process.env.PORT || 5000;
+    const port = process.env.PORT || 8000;
     const server = app.listen(port, () => {
       console.log("Server running on port".magenta, colors.yellow(port));
     });

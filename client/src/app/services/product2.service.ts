@@ -13,7 +13,7 @@ export class Product2Service {
   // rootURL = this.baseUrl+ this.bcs.javaport+'/webapi';
   private url: string = `${this.rootURL}/books`;
 
-  // private url = "http://localhost:5000/shop";
+  // private url = "http://localhost:8000/shop";
 
  
   constructor(private http: HttpClient, private router: Router,private bcs:BackendConfigService) {

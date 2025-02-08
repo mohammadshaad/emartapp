@@ -9,7 +9,7 @@ export class BackendConfigService {
     backend_url ='http://localhost:';
 
     javaport='9000';
-    nodeport='5000';
+    nodeport='8000';
     angularport='4200';
   constructor() { }
 }

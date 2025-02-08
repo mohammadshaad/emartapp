@@ -37,13 +37,13 @@ var sender = nodemailer.createTransport({
   type: "SMTP",
   host: "smtp.gmail.com",
   auth: {
-    user: 'keshav.visu@gmail.com',
-    pass: '271298318929'
+    user: 'mohammadshaadshaikh3@gmail.com',
+    pass: 'ratk opag jxdf mnzc'
   }
 });
  
 var mail = {
-  from: "keshav.visu@gmail.com",
+  from: "mohammadshaadshaikh3@gmail.com",
   to: req.body.email,
   subject: "E_MART Registration Successfull",
   text: "Dear "+req.body.fname+"! Your Registration Finished Successfully.\nWelcome to E-MART Family.\n Thankyou!"
@@ -135,13 +135,13 @@ var sender = nodemailer.createTransport({
   type: "SMTP",
   host: "smtp.gmail.com",
   auth: {
-    user: 'keshav.visu@gmail.com',
-    pass: '21312312312'
+    user: 'mohammadshaadshaikh3@gmail.com',
+    pass: 'ratk opag jxdf mnzc'
   }
 });
  
 var mail = {
-  from: "keshav.visu@gmail.com",
+  from: "mohammadshaadshaikh3@gmail.com",
   to: email,
   subject: "Login alert mail from E-Mart",
   text: "Dear "+email +" , you have Loggedin successfully at "+Date.now()

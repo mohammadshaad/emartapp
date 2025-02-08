@@ -10,7 +10,7 @@ service:
     port: 9000
     type: ClusterIP
   main:
-    port: 5000
+    port: 8000
     type: ClusterIP
 ingress:
   host: kubekart.k8sengineers.com

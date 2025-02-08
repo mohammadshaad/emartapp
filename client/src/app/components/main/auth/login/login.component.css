@@ -1,13 +1,12 @@
 .login-comp {
     /* background-color: rgb(255, 217, 160); */
 
-    background-color: rgb(65, 62, 228);
-    background-color: rgb(65, 62, 228);
-    width: 400px; 
-    /* margin-bottom: 10rem; */
-    /* margin-top: 50px; */
-    /* margin:150px 400px;
-    margin-bottom: -600px; */
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
 }
 .top-container {
     width: 1000px;
@@ -18,3 +17,21 @@
 /* form {
     
 } */
+
+.form-control {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.alert {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
